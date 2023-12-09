@@ -6,7 +6,8 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
-  FaPhone
+  FaPhone,
+  FaWhatsapp
 } from "react-icons/fa";
 
 const Main = () => {
@@ -42,9 +43,13 @@ const Main = () => {
             <a href="https://twitter.com/Ron82950274" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="cursor-pointer" size={20} />
             </a>
-            <a href="tel:+1234567890">
-  <FaPhone className="cursor-pointer" size={20} />
-</a>
+            <a href="tel:+972544631809">
+              <FaPhone className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://wa.me/1234567890">
+              <FaWhatsapp className="cursor-pointer" size={20} />
+            </a>
+
 
             <FaFacebookF className="" size={20} />
             <FaLinkedinIn className="" size={20} />
