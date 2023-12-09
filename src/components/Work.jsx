@@ -7,12 +7,7 @@ const data = [
     duration: "6 Months",
     year: "2023",
     details: `
-    As a Junior Angular Developer in my current role, actively involved in the development of web applications using Angular framework. 
-    Collaborating with the project team to understand requirements and objectives.
-    Implementing Angular components, services, and modules to create interactive and responsive web pages.
-    Utilizing Figma for pixel-perfect styles and layouts.
-    Angular animations, Material Design, and Firebase for seamless user experiences.
-    
+    In my current role, I'm actively engaged in Angular web development, collaborating on project requirements, and implementing components, services, and modules for interactive and responsive pages, all while ensuring precise styling using Figma designs.
     `,
   },
   {
