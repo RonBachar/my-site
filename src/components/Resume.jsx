@@ -4,7 +4,7 @@ import { BsDownload } from "react-icons/bs";
 const Resume = () => {
   const downloadPdf = () => {
     // Specify the path to the PDF file relative to the "public" directory
-    const pdfUrl = "/src/assets/pdf/Ron Bachar Resume.pdf"; // Adjust the path as needed
+    const pdfUrl = "/src/assets/pdf/RonBacharResume.pdf"; // Adjust the path as needed
 
     // Create an anchor element to trigger the download
     const anchor = document.createElement("a");
