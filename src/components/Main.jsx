@@ -6,6 +6,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
+  FaPhone
 } from "react-icons/fa";
 
 const Main = () => {
@@ -38,10 +39,16 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaFacebookF className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
+            <a href="https://twitter.com/Ron82950274" target="_blank" rel="noopener noreferrer">
+              <FaTwitter className="cursor-pointer" size={20} />
+            </a>
+            <a href="tel:+1234567890">
+  <FaPhone className="cursor-pointer" size={20} />
+</a>
+
+            <FaFacebookF className="" size={20} />
+            <FaLinkedinIn className="" size={20} />
+            <FaInstagram className="" size={20} />
           </div>
         </div>
       </div>
