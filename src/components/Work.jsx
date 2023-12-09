@@ -10,8 +10,6 @@ const data = [
     As a Junior Angular Developer in my current role, actively involved in the development of web applications using Angular framework. 
     Collaborating with the project team to understand requirements and objectives.
     Implementing Angular components, services, and modules to create interactive and responsive web pages.
-    Utilizing Figma for pixel-perfect styles and layouts.
-    Angular animations, Material Design, and Firebase for seamless user experiences.
     `
     ,
   },
@@ -41,7 +39,7 @@ const Work = () => {
       id="work"
       className="w-full max-w-screen-lg mx-auto h-screen py-10  flex flex-col justify-center p-4 md:pl-20 py-16"
     >
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-5">
+      <h1 className="text-4xl font-bold text-[#001b5e] mb-6 text-center">
         Work
       </h1>
       {data.map((item, idx) => (
