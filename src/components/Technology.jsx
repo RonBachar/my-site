@@ -21,7 +21,7 @@ const Technology = () => {
     <div className="flex flex-col max-w-[1040px] m-auto mt-10 mb-5">
       <h1 className="text-4xl font-bold text-center mb-10">Technologies</h1>
 
-      <div className="max-w-[1040px] m-auto  grid grid-cols-3 md:grid-cols-4 gap-20 ">
+      <div className="max-w-[1040px] m-auto  grid grid-cols-3 md:grid-cols-4 gap-10">
         <DiJavascript
           size="75"
           className="text-gray-215"

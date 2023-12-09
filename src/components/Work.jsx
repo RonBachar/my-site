@@ -8,10 +8,19 @@ const data = [
     duration: "Jul 2023 - Present",
     details: `
     As a Junior Angular Developer in my current role, actively involved in the development of web applications using Angular framework. 
-Collaborating with the project team to understand requirements and objectives.
-Implementing Angular components, services, and modules to create interactive and responsive web pages.
-Utilizing Figma for pixel-perfect styles and layouts.
-Angular animations, Material Design, and Firebase for seamless user experiences.
+    Collaborating with the project team to understand requirements and objectives.
+    Implementing Angular components, services, and modules to create interactive and responsive web pages.
+    Utilizing Figma for pixel-perfect styles and layouts.
+    Angular animations, Material Design, and Firebase for seamless user experiences.
+    `
+    ,
+  },
+  {
+
+    title: "My Project",
+    duration: "",
+    details: ` 
+    Designed and built my portfolio page using React.js and Tailwind CSS. This web application showcased my proficiency in creating responsive and visually appealing websites, offering an engaging user experience.
     `
     ,
   },

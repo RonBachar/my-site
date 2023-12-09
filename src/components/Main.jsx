@@ -40,20 +40,20 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
+            <a href="https://linkedin.com/in/ron-bachar" target="_blank" rel="noopener noreferrer">
+              <FaLinkedinIn className="cursor-pointer" size={20} />
+            </a>
             <a href="https://twitter.com/Ron82950274" target="_blank" rel="noopener noreferrer">
               <FaTwitter className="cursor-pointer" size={20} />
             </a>
-            <a href="tel:+972544631809">
-              <FaPhone className="cursor-pointer" size={20} />
-            </a>
-            <a href="https://wa.me/1234567890">
+            <a href="https://wa.me/0544631809">
               <FaWhatsapp className="cursor-pointer" size={20} />
             </a>
+            <a href="tel:0544631809">
+              <FaPhone className="cursor-pointer" size={20} />
+            </a>
 
 
-            <FaFacebookF className="" size={20} />
-            <FaLinkedinIn className="" size={20} />
-            <FaInstagram className="" size={20} />
           </div>
         </div>
       </div>
