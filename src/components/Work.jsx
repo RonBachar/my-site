@@ -3,25 +3,26 @@ import WorkItem from "../components/WorkItem";
 
 const data = [
   {
-    year: "2022",
-    title: "Full time freelancer",
-    duration: "2 years",
-    details:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+
+    title: "Junior Angular Developer",
+    duration: "Jul 2023 - Present",
+    details: `
+    As a Junior Angular Developer in my current role, actively involved in the development of web applications using Angular framework. 
+Collaborating with the project team to understand requirements and objectives.
+Implementing Angular components, services, and modules to create interactive and responsive web pages.
+Utilizing Figma for pixel-perfect styles and layouts.
+Angular animations, Material Design, and Firebase for seamless user experiences.
+    `
+    ,
   },
   {
-    year: "2017",
-    title: "Forex Team Lead",
-    duration: "3 years",
-    details:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
-  },
-  {
-    year: "2015",
-    title: "Marketing Manager",
-    duration: "2 years",
-    details:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+
+    title: "Sales Manager",
+    duration: "Aug 2021 - July 2023",
+    details: `
+    In my previous role as a Sales Manager at Active Tech, I gained four years of valuable experience in sales and management. This position allowed me to develop and apply my sales and leadership skills, drive revenue growth, and lead a team to achieve sales targets.
+    `
+    ,
   },
 ];
 
@@ -29,12 +30,11 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="w-full h-screen py-10 bg-white flex flex-col justify-center  m-auto md:pl-20 p-4 py-16 "
+      className="w-full max-w-screen-lg mx-auto h-screen py-10  flex flex-col justify-center p-4 md:pl-20 py-16"
     >
       <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-5">
         Work
       </h1>
-
       {data.map((item, idx) => (
         <WorkItem
           key={idx}

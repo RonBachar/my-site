@@ -24,10 +24,10 @@ const Main = () => {
           <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 font-thin	">
             <TypeAnimation
               sequence={[
-                "Build.",
-                3000, // wait 1s before replacing "Mice" with "Hamsters"
+                "Design.",
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "Develop.",
-                2000,
+                1000,
                 "Deploy.",
                 2000,
               ]}
