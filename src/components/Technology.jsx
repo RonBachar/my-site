@@ -18,8 +18,9 @@ import { SiExpress } from "react-icons/si";
 
 const Technology = () => {
   return (
-    <div className="flex flex-col max-w-[1040px] m-auto mt-10 mb-5">
-      <h1 className="text-4xl font-bold text-center mb-10">Technologies</h1>
+    <div className="w-full max-w-screen-lg mx-auto h-screen py-10  flex flex-col justify-center p-4 md:pl-20 py-16">
+
+      <h1 className="text-4xl font-bold text-[#001b5e] mb-6 text-center">Technologies</h1>
 
       <div className="max-w-[1040px] m-auto  grid grid-cols-3 md:grid-cols-4 gap-10">
         <DiJavascript

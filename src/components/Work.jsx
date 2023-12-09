@@ -3,24 +3,24 @@ import WorkItem from "../components/WorkItem";
 
 const data = [
   {
-    title: "Junior Angular Developer",
-    duration: "Jul 2023 - Present",
+    title: "Junior Angular Developer | Full-time Freelance",
+    duration: "6 Months",
+    year: "2023",
     details: `
-    Developed web applications using Angular, collaborated on project requirements, created interactive web pages for seamless user experiences.
+    As a Junior Angular Developer in my current role, actively involved in the development of web applications using Angular framework. 
+    Collaborating with the project team to understand requirements and objectives.
+    Implementing Angular components, services, and modules to create interactive and responsive web pages.
+    Utilizing Figma for pixel-perfect styles and layouts.
+    Angular animations, Material Design, and Firebase for seamless user experiences.
+    
     `,
   },
   {
-    title: "My Project",
-    duration: "",
+    title: "Sales Manager | Active Tech",
+    duration: "2 Years",
+    year: "2021-2023",
     details: `
-    Built an Angular-based insurance comparison system with Sass, designed an intuitive user interface.
-    `,
-  },
-  {
-    title: "Sales Manager",
-    duration: "Aug 2021 - July 2023",
-    details: `
-    Managed sales and teams for four years at Active Tech, drove revenue growth, and consistently achieved sales targets.
+    In my previous role as a Sales Manager at Active Tech, I gained two years of valuable experience in sales and management. This position allowed me to develop and apply my sales and leadership skills, drive revenue growth, and lead a team to achieve sales targets.
     `,
   },
 ];
