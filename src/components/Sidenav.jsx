@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import {
   AiOutlineHome,
   AiOutlineMenu,
-  AiOutlineProject,
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
 import { BiDownload } from "react-icons/bi";
+
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
 
