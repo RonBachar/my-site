@@ -3,22 +3,24 @@ import WorkItem from "../components/WorkItem";
 
 const data = [
   {
-    title: "Junior Angular Developer | Full-time Freelance",
-    duration: "6 Months",
-    year: "2023",
-    details: `
-    In my current role, I'm actively engaged in Angular web development, collaborating on project requirements, and implementing components, services, and modules for interactive and responsive pages, all while ensuring precise styling using Figma designs.
-    `,
+  title: "Junior Angular Developer | Full-time Freelance",
+  duration: "6 Months",
+  year: "2023",
+  details: `In my current role, I'm actively engaged in Angular web development, collaborating on project requirements, and implementing components, services, and modules for interactive and responsive pages, all while ensuring precise styling using Figma designs. `,
   },
   {
-    title: "Sales Manager | Active Tech",
-    duration: "2 Years",
-    year: "2021-2023",
-    details: `
-    In my previous role as a Sales Manager at Active Tech, I gained two years of valuable experience in sales and management. This position allowed me to develop and apply my sales and leadership skills, drive revenue growth, and lead a team to achieve sales targets.
-    `,
+  title: "Sales Manager | Active Tech",
+  duration: "2 Years",
+  year: "2020-2022",
+  details: `As a Sales Manager at Active Tech, I successfully led a dynamic sales team and contributed to the company's growth by implementing effective sales strategies. My responsibilities included overseeing the sales process, managing client relationships, and achieving revenue targets. Through my leadership, we consistently exceeded sales goals, fostering a positive and collaborative work environment. `,
   },
-];
+  {
+  title: "Sales Agent | VW ",
+  duration: "5 Years",
+  year: "2015-2020",
+  details: `During my tenure as a Sales Agent at VW, I played a key role in promoting and selling Volkswagen vehicles. I developed strong product knowledge, built lasting relationships with clients, and consistently met or exceeded sales targets. Additionally, I actively participated in sales training programs, staying abreast of industry trends and enhancing my sales skills. My dedication and contribution played a pivotal role in maintaining VW's reputation for excellence in customer service and sales.` ,
+  },
+  ];
 
 
 
