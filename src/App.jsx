@@ -24,7 +24,6 @@ function App() {
       <Main />
       <About />
       <Work />
-      <Resume />
       <Technology />
       <Contact />
     </>
