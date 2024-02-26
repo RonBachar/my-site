@@ -1,14 +1,9 @@
 import React from "react";
 import image from "../assets/hero.jpg"; // Provide the correct relative path
 import { TypeAnimation } from "react-type-animation";
-import {
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaPhone,
-  FaWhatsapp
-} from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
+
+import { FaLinkedinIn, FaWhatsapp, FaGithub, FaPhone } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -40,20 +35,26 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <a href="https://linkedin.com/in/ron-bachar" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://linkedin.com/in/ron-bachar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedinIn className="cursor-pointer" size={20} />
             </a>
-            <a href="https://twitter.com/Ron82950274" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="cursor-pointer" size={20} />
+            <a
+              href="https://github.com/RonBachar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="cursor-pointer" size={20} />
             </a>
-            <a href="https://wa.me/0544631809">
-              <FaWhatsapp className="cursor-pointer" size={20} />
+            <a href="mailto:ron.bachar@outlook.com">
+              <CiMail className="cursor-pointer" size={20} />
             </a>
             <a href="tel:0544631809">
               <FaPhone className="cursor-pointer" size={20} />
             </a>
-
-
           </div>
         </div>
       </div>

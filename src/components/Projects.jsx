@@ -2,62 +2,42 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div
-      id="projects"
-      className="w-full h-screen py-10 bg-gray-200 flex flex-col justify-center  m-auto md:pl-20 p-4 py-16"
-    >
+    <div id="projects" className="m-auto md:pl-20 p-4 py-16 ">
       <h1 className="text-4xl font-bold text-[#001b5e] mb-4 text-center">
         Projects
       </h1>
-      <div className="container mx-auto px-5 py-2 lg:px-32 ">
-        <div className="-m-1 flex flex-wrap md:-m-2">
-          <div className="flex w-1/2 flex-wrap">
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center  "
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
-              />
-            </div>
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-              />
-            </div>
-            <div className="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-              />
-            </div>
-          </div>
-          <div className="flex w-1/2 flex-wrap">
-            <div className="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-              />
-            </div>
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
-              />
-            </div>
-            <div className="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
-              />
-            </div>
-          </div>
-        </div>
+
+      <div className="w-full w-1/2 ">
+        <a
+          href="https://worker-manager.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block bg-white rounded-lg shadow-md p-4 text-center m-4"
+        >
+          Worker Manager
+        </a>
+      </div>
+
+      <div className="w-full w-1/2 ">
+        <a
+          href="https://mikasa-guest-house.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block bg-white rounded-lg shadow-md p-4 text-center m-4"
+        >
+          Mikasa Guest House
+        </a>
+      </div>
+
+      <div className="w-full ">
+        <a
+          href="https://ron-bachar.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block bg-white rounded-lg shadow-md p-4 text-center m-4"
+        >
+          Ron Bachar Portfolio
+        </a>
       </div>
     </div>
   );

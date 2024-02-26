@@ -7,7 +7,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Technology from "./components/Technology";
-
+import Projects from './components/Projects'
 function App() {
   const [isNavOpen, setIsNavOpen] = useState(false); // Use useState here
 
@@ -21,6 +21,7 @@ function App() {
       <Sidenav isNavOpen={isNavOpen} toggleNav={toggleNav} />
       <Main />
       <About />
+      <Projects/>
       <Work />
       <Technology />
       <Contact />
