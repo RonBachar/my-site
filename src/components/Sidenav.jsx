@@ -18,9 +18,9 @@ const Sidenav = () => {
   };
 
   return (
-    <div>
+    <div >
       <AiOutlineMenu
-        className="absolute top-4 right-4 z-50 md:hidden; cursor-pointer"
+        className="fixed top-4 right-4 z-50 md:hidden; cursor-pointer "
         onClick={toggleNav}
       />
       {nav ? (

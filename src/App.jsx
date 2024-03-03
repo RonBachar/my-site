@@ -7,7 +7,8 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Technology from "./components/Technology";
-import Projects from './components/Projects'
+import Projects from './components/Projects';
+
 function App() {
   const [isNavOpen, setIsNavOpen] = useState(false); // Use useState here
 
