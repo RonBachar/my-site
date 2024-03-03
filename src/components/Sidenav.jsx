@@ -20,14 +20,14 @@ const Sidenav = () => {
   return (
     <div >
       <AiOutlineMenu
-        className="fixed top-4 right-4 z-50 md:hidden; cursor-pointer "
+        className="fixed top-4 right-4 z-50 md:hidden; cursor-pointer text-4xl "
         onClick={toggleNav}
       />
       {nav ? (
         <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
           <a
             href="#main"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={toggleNav}
           >
             <AiOutlineHome size={20} />
@@ -35,7 +35,7 @@ const Sidenav = () => {
           </a>
           <a
             href="#about"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={toggleNav}
           >
             <BsPerson size={20} />
@@ -43,7 +43,7 @@ const Sidenav = () => {
           </a>
           <a
             href="#work"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={toggleNav}
           >
             <GrProjects size={20} />
@@ -51,7 +51,7 @@ const Sidenav = () => {
           </a>
           <a
             href="#projects"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={toggleNav}
           >
             <FaProjectDiagram size={20} />
@@ -60,7 +60,7 @@ const Sidenav = () => {
         
           <a
             href="#resume"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={toggleNav}
           >
             <BiDownload size={20} />
@@ -68,7 +68,7 @@ const Sidenav = () => {
           </a>
           <a
             href="#contact"
-            className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className="w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={toggleNav}
           >
             <AiOutlineMail size={20} />

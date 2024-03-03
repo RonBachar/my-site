@@ -28,11 +28,12 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="w-full mx-auto h-full py-10  flex flex-col justify-center p-4 md:pl-20 py-16"
+      className="w-full mx-auto h-full   flex flex-col justify-center p-4 md:pl-20 py-16"
     >
       <h1 className="text-4xl font-bold text-[#001b5e] mb-6 text-center">
         Work
       </h1>
+      <h2 className="text-1xl font-bold mb-6 text-[#001b5e]  text-center">A glance of my prior work experience</h2>
       {data.map((item, idx) => (
         <WorkItem
           key={idx}
