@@ -23,7 +23,7 @@ const Resume = () => {
   return (
     <div
       id="resume"
-      className="h-96 flex flex-col m-auto mt-10 flex bg-slate-100 flex-col justify-center items-center"
+      className="h-96 flex flex-col m-auto mt-10  bg-slate-100  justify-center items-center"
     >
       <button
         className="py-2 px-4 rounded-lg inline-flex items-center border-none bg-slate-50 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-slate-800 text-slate-800 hover:text-white"

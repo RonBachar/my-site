@@ -18,11 +18,15 @@ import {
 
 const Technology = () => {
   return (
-    <div className="border-[#001b5e] py-16 m-16 ">
-      <h1 className="text-4xl font-bold text-[#001b5e] mb-6 text-center">Technologies</h1>
-      <h2 className="text-1xl font-bold mb-6 text-[#001b5e]  text-center">Practiced with the follwing technologies</h2>
+    <div id="technology" className="border-[#001b5e] py-16 m-16 ">
+      <h1 className="text-4xl font-bold text-[#001b5e] mb-6 text-center">
+        Technologies
+      </h1>
+      <h2 className="text-1xl font-bold mb-6 text-[#001b5e]  text-center">
+        Practiced with the follwing technologies
+      </h2>
 
-      <div className="flex  flex-wrap justify-center gap-6 ">
+      <div className="flex  flex-wrap justify-center gap-6 py-16">
         <DiJavascript
           size="75"
           className="text-gray-215"
@@ -80,7 +84,7 @@ const Technology = () => {
         />
         <BiLogoNodejs size="75" className="text-gray-267" /> */}
       </div>
-     
+      <hr />
     </div>
   );
 };

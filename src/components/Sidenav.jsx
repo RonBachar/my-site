@@ -9,6 +9,7 @@ import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
 import { BiDownload } from "react-icons/bi";
 import { FaProjectDiagram } from "react-icons/fa";
+import { FaNetworkWired } from "react-icons/fa";
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -59,12 +60,12 @@ const Sidenav = () => {
           </a>
         
           <a
-            href="#resume"
+            href="#technology"
             className="w-[50%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             onClick={toggleNav}
           >
-            <BiDownload size={20} />
-            <span className="pl-4">Resume</span>
+            <FaNetworkWired size={20} />
+            <span className="pl-4">Technology</span>
           </a>
           <a
             href="#contact"
@@ -103,10 +104,10 @@ const Sidenav = () => {
               <FaProjectDiagram size={20} />
             </a>
             <a
-              href="#resume"
+              href="#technology"
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300"
             >
-              <BiDownload size={20} />
+              <FaNetworkWired size={20} />
             </a>
             <a
               href="#contact"

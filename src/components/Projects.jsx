@@ -4,12 +4,12 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="w-full h-screen flex flex-col items-center justify-center"
+      className="w-full py-16 bg-slate-300 flex flex-col items-center justify-center"
     >
       <h1 className="text-4xl font-bold text-[#001b5e] mb-6 text-center">
         Projects
       </h1>
-      <h2 class="text-1xl font-bold mb-6 text-[#001b5e]  text-center">
+      <h2 className="text-1xl font-bold mb-6 text-[#001b5e]  text-center">
         A few projects 
       </h2>
       <div className="flex flex-col items-center gap-6">
