@@ -3,7 +3,7 @@ import ABOUT_IMG from "../assets/about_me.jpg"; // Provide the correct relative 
 
 const About = () => {
   return (
-<div id="about" className="w-full h-screen-200 bg-gray flex flex-wrap ">
+<div id="about" className="w-full h-screen-200 bg-gray flex flex-wrap my-24">
 
 <div className="h-screen  w-full md:w-1/2 flex flex-col justify-center items-center px-16">
   <h1 className="text-4xl font-bold text-[#001b5e] mb-6 text-center">

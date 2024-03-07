@@ -3,28 +3,31 @@ import WorkItem from "../components/WorkItem";
 
 const data = [
   {
-    title: "Junior Angular Developer | Full-time Freelance",
-    duration: "July 2023 - now",
-    year: "2023",
-    details: `In my current role, I'm actively engaged in Angular web development, collaborating on project requirements, and implementing components, services, and modules for interactive and responsive pages, all while ensuring precise styling using Figma designs. `,
+    title: "Frontend Angular Developer | Full-time Freelance",
+    duration: "",
+    year: "2023- present",
+    details: `In my current role, I'm actively engaged in a comprehensive Angular v16 insurance-comparison system, collaborating on project requirements, and implementing features to enhance user experience and streamline functionality `,
   },
   {
-    title: "Sales Manager | Active Tech",
+    title: "Compliance Manager | Active Tech ",
     duration: "2 Years",
-    year: "2020-2022",
-    details: `As a Sales Manager at Active Tech, I successfully led a dynamic sales team and contributed to the company's growth by implementing effective sales strategies. My responsibilities included overseeing the sales process, managing client relationships, and achieving revenue targets. Through my leadership, we consistently exceeded sales goals, fostering a positive and collaborative work environment. `,
+    year: "Aug 2020 - July 2022",
+    details: `Managed compliance for international clients as an outsource for Plus 500, a market giant, overseeing document verification and assisting clients. Addressed concerns effectively, drove revenue growth, and led sales team.
+    `,
   },
   {
-    title: "Sales Agent | VW ",
+    title: "Sales Agent | VW Champion Motors  ",
     duration: "4 Years",
-    year: "2016-2020",
-    details: `During my tenure as a Sales Agent at VW, I played a key role in promoting and selling Volkswagen vehicles. I developed strong product knowledge, built lasting relationships with clients, and consistently met or exceeded sales targets. Additionally, I actively participated in sales training programs, staying abreast of industry trends and enhancing my sales skills. My dedication and contribution played a pivotal role in maintaining VW's reputation for excellence in customer service and sales.`,
+    year: "July 2016 - August 2020",
+    details: `Key sales agent at VW Champion Motors, selling Volkswagen vehicles and exceeding targets through expertise and strong client relationships. Committed to ongoing training and exceptional customer service.
+    `,
   },
 ];
 
-
-
 const Work = () => {
+
+
+
   return (
     <div
       id="work"
@@ -33,11 +36,12 @@ const Work = () => {
       <h1 className="text-4xl font-bold text-[#001b5e] mb-6 text-center">
         Work
       </h1>
-      <h2 className="text-1xl font-bold mb-6 text-[#001b5e]  text-center">A glance of my prior work experience</h2>
-      
+      <h2 className="text-1xl font-bold mb-6 text-[#001b5e]  text-center">
+        A glance of my prior work experience
+      </h2>
+
       {data.map((item, idx) => (
         <WorkItem
-          
           key={idx}
           year={item.year}
           title={item.title}
